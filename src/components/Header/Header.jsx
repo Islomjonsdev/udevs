@@ -18,10 +18,10 @@ function Header() {
             <nav>
               <ul>
                 <li>
-                  <Link href={"/"}>Услуги</Link>
+                  <Link href={"/#ourser"}>Услуги</Link>
                 </li>
                 <li>
-                  <Link href={"/"}>Команда</Link>
+                  <Link href={"/#team"}>Команда</Link>
                 </li>
                 <li>
                   <Link href={"/"}>

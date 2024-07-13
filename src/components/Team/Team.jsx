@@ -5,7 +5,7 @@ import style from "./Team.module.scss";
 
 const Team = () => {
   return (
-    <section className={style.team}>
+    <section className={style.team} id="team">
       <div className={style.container}>
         <div className={style.team_wrapper}>
           <h1>Выделенная команда</h1>

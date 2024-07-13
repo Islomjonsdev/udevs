@@ -36,7 +36,7 @@ const OurServices = () => {
     },
   ];
   return (
-    <section className={style.our_services}>
+    <section className={style.our_services} id="ourser">
       <div className={style.container}>
         <div className={style.our_services_wrapper}>
           <h1>Наши услуги</h1>

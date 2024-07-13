@@ -19,3 +19,20 @@
         color: #000;
     }
 }
+
+@media only screen and (max-width: 900px) {
+    .our_services_item {
+        max-width: 417px;
+        width: 100%;
+        background-color: #f4f7ff;
+        padding: 14px;
+        border-radius: 8px;
+        margin-bottom: 12px;
+    
+        h3 {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 16px;
+        }
+    }
+}

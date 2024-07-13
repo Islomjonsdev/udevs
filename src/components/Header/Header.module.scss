@@ -1,0 +1,122 @@
+.header {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-shadow: 0 1px 0 #e5e9f2;
+  margin-bottom: 72px;
+  .container {
+    max-width: 1180px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header_link {
+      img {
+        width: 96px;
+        height: 32px;
+      }
+    }
+
+    .header_list_wrapper {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+
+        li {
+          div {
+            padding: 10px 0;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 20px;
+            color: #000;
+          }
+          a {
+            padding: 10px 0;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 20px;
+            color: #000;
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+
+    .header_hamburger {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    height: 64px;
+
+    .header_container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .header_link {
+        img {
+          width: 96px;
+          height: 32px;
+        }
+      }
+
+      .header_list_wrapper {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        ul {
+          display: none;
+
+          li {
+            div {
+              padding: 10px 0;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 20px;
+              color: #000;
+            }
+            a {
+              padding: 10px 0;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 20px;
+              color: #000;
+              display: flex;
+              align-items: center;
+            }
+          }
+        }
+
+        .contact_us_lin {
+          display: none;
+        }
+      }
+
+      .header_hamburger {
+        display: block;
+        width: 27px;
+        height: 27px;
+        color: #1b5bf7;
+      }
+    }
+  }
+}

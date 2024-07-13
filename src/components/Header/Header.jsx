@@ -3,7 +3,6 @@ import Link from "next/link";
 import React from "react";
 import logo from "../../assets/svg/logo.svg";
 import downIcon from "../../assets/svg/down.svg";
-import ContactUs from "../ContactUs/ContactUs";
 import { RxHamburgerMenu } from "react-icons/rx";
 import style from "./Header.module.scss";
 
@@ -44,7 +43,7 @@ function Header() {
                 </li>
               </ul>
             </nav>
-            <ContactUs className={style.contact_us_link}/>
+            <Link className={style.contact_us_link} href={"/"}>Связаться</Link>
           </div>
             <RxHamburgerMenu className={style.header_hamburger}/>
         </div>

@@ -1,0 +1,124 @@
+.team {
+  background-color: #f4f7ff;
+  padding: 80px 0px;
+  .container {
+    max-width: 1180px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .team_wrapper {
+    h1 {
+      max-width: 880px;
+      width: 100%;
+      font-size: 64px;
+      line-height: 64px;
+      font-weight: 800;
+      color: #1b5bf7;
+      margin-bottom: 42.88px;
+    }
+
+    .team_body {
+      display: flex;
+      justify-content: space-between;
+      .team_left {
+        max-width: 500px;
+        width: 100%;
+
+        .team_left_text {
+          font-size: 20px;
+          line-height: 40px;
+          font-weight: 500;
+          color: #464359;
+          margin-bottom: 26.1px;
+        }
+
+        div {
+          display: flex;
+          span {
+            margin-bottom: 4px;
+            font-size: 120px;
+            line-height: 96px;
+            font-weight: 700;
+            color: #1b5bf7;
+          }
+        }
+
+        .team_left_text1 {
+          font-size: 40px;
+          line-height: 72px;
+          font-weight: 800;
+          color: #464359;
+          margin-bottom: 26.1px;
+        }
+      }
+
+      .team_right {
+        img {
+          max-width: 500px;
+          width: 100%;
+          height: 419px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .team {
+    padding: 32px 0px;
+    .team_wrapper {
+      h1 {
+        max-width: 270px;
+        width: 100%;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 800;
+        color: #1b5bf7;
+        margin-bottom: 21.44px;
+      }
+
+      .team_body {
+        display: flex;
+        flex-direction: column;
+        .team_left {
+          max-width: 500px;
+          width: 100%;
+
+          .team_left_text {
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 500;
+          }
+
+          div {
+            display: flex;
+            span {
+              margin-bottom: 16px;
+              font-size: 80px;
+              line-height: 70px;
+            }
+          }
+
+          .team_left_text1 {
+            font-size: 24px;
+            line-height: 72px;
+            font-weight: 800;
+            margin-bottom: 0px;
+          }
+        }
+
+        .team_right {
+          img {
+            max-width: 500px;
+            width: 100%;
+            height: 419px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -44,12 +44,19 @@
       .erp_system_right {
           max-width: 500px;
           width: 100%;
-          p {
+          .erp_system_right_text {
             font-size: 24px;
             line-height: 40px;
             font-weight: 500;
             color: #000;
             margin-bottom: 26.1px;
+          }
+
+          .erp_system_list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 40px;
           }
       }
     }

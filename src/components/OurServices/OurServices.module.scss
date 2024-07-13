@@ -1,0 +1,28 @@
+.our_services {
+    padding-top: 100px;
+    
+    .container {
+        max-width: 1180px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .our_services_wrapper {
+        h1 {
+            font-size: 64px;
+            line-height: 64px;
+            font-weight: 800;
+            color: #1b5bf7;
+            margin-bottom: 42.88px;
+        }
+
+        .our_services_list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+}

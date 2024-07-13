@@ -13,7 +13,7 @@ function Header() {
       <div className={style.container}>
         <div className={style.header_container}>
           <Link className={style.header_link} href={"/"}>
-            <Image src={logo} />
+            <Image src={logo} alt="logo"/>
           </Link>
           <div className={style.header_list_wrapper}>
             <nav>
@@ -27,7 +27,7 @@ function Header() {
                 <li>
                   <Link href={"/"}>
                     Напрaвление
-                    <Image src={downIcon} />
+                    <Image src={downIcon} alt="downIcon"/>
                   </Link>
                 </li>
                 <li>
@@ -39,7 +39,7 @@ function Header() {
                 <li>
                   <div style={{display: "flex", alignItems: "center"}}>
                     <p>Язык</p>
-                    <Image src={downIcon} />
+                    <Image src={downIcon} alt="downIcon"/>
                   </div>
                 </li>
               </ul>

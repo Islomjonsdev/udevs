@@ -24,7 +24,7 @@ const Mobile = () => {
     },
   ];
   return (
-    <section className={style.mobile}>
+    <section className={style.mobile} id={"mobile"}>
       <div className={style.container}>
         <div className={style.mobile_blog}>
           <h1>Мобильная разработка</h1>

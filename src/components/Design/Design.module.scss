@@ -77,10 +77,17 @@
       }
 
       .card_right {
+        max-width: 500px;
+        width: 100%;
         background-image: url("../../assets/images/uiuxbg.png");
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: left;
         border-radius: 8px;
+        height: 656px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
 
         img {
           max-width: 500px;
@@ -141,7 +148,7 @@
                 }
 
                 .card_bottom_text {
-                    font-size: 18px;
+                  font-size: 18px;
                 }
               }
             }
@@ -149,11 +156,17 @@
         }
 
         .card_right {
+          max-width: 500px;
+          width: 100%;
           background-image: url("../../assets/images/uiuxbg.png");
           background-repeat: no-repeat;
           background-position: left;
           border-radius: 8px;
-          width: 100%;
+          height: 471px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
 
           img {
             max-width: 500px;
